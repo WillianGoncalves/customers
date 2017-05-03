@@ -1,0 +1,11 @@
+en:
+  general:
+    links:
+      my_profile: My profile
+      back: Back
+  devise:
+    update: Update
+    login: Login
+    sign_out: Sign out
+    sign_up: Sign up
+    cancel_account: Cancel my account

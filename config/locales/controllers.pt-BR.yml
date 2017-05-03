@@ -2,4 +2,10 @@ pt-BR:
   general:
     links:
       my_profile: Meu perfil
-      sign_out: Sair
+      back: Voltar
+  devise:
+    update: Atualizar
+    login: Entrar
+    sign_out: Sair
+    sign_up: Criar conta
+    cancel_account: Cancelar minha conta

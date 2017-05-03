@@ -1,0 +1,12 @@
+pt-BR:
+  activerecord:
+    attributes:
+      user:
+        first_name: Nome
+        last_name: Sobrenome
+        email: Email
+        avatar: Avatar
+        password: Senha
+        password_confirmation: Confirmação de senha
+        current_password: Senha atual
+        remember_me: Lembrar me
