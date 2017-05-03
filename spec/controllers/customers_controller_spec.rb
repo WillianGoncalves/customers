@@ -6,6 +6,14 @@ RSpec.describe CustomersController, type: :controller do
       before { get :index }
       it { expect(response).to redirect_to user_session_path }
     end
+
+    describe 'POST #create' do
+      let(:address) { { street: 'street', city: 'city', state: 'state', country: 'country' } }
+      let(:phone) { { number: 'number' } }
+      before { post :create, params: { customer: { first_name: 'foo', last_name: 'bar', avatar: 'foo_avatar', gender: :male, address_attributes: address, phones_attributes: [phone] } } }
+      it { expect(Customer.count).to eq 0 }
+      it { expect(response).to redirect_to user_session_path }
+    end
   end
 
   context 'authenticated user' do
