@@ -9,3 +9,7 @@ pt-BR:
     sign_out: Sair
     sign_up: Criar conta
     cancel_account: Cancelar minha conta
+  home:
+    index: Home
+  customers:
+    index: Clientes

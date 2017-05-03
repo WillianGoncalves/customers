@@ -9,3 +9,7 @@ en:
     sign_out: Sign out
     sign_up: Sign up
     cancel_account: Cancel my account
+  home:
+    index: Home
+  customers:
+    index: Customers
