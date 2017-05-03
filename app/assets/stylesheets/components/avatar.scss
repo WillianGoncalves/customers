@@ -1,0 +1,10 @@
+@import "helpers/vars";
+
+.avatar {
+  height: 44px;
+  width: 44px;
+  padding: 2px;
+
+  border: 1px solid $avatar-border-color;
+  border-radius: 90px;
+}

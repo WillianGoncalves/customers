@@ -1,4 +1,7 @@
-.avatar {
-  height: 32px;
-  width: 32px;
+.navbar-header {
+  a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
