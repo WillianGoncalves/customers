@@ -1,0 +1,8 @@
+<% if user_signed_in? %>
+  <footer>
+    <div class="flags">
+      <%= link_to image_tag('001-brazil.svg'), url_for(locale: 'pt-BR') %>
+      <%= link_to image_tag('002-united-states.svg'), url_for(locale: 'en') %>
+    </div>
+  </footer>
+<% end %>

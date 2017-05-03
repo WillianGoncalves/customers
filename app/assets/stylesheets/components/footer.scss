@@ -1,0 +1,25 @@
+footer {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  padding: 20px 15px;
+
+  color: $navbar-default-color;
+
+  background-color: $navbar-default-bg;
+  border: 1px solid;
+  border-color: $navbar-default-border;
+
+  .flags {
+    display: inline-block;
+    float: right;
+
+    img {
+      width: 32px;
+      height: 32px;
+
+      cursor: pointer;
+    }
+  }
+}
